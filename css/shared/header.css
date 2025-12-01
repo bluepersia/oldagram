@@ -1,0 +1,20 @@
+.header {
+  padding: 1.23rem 0;
+  border-bottom: 0.076rem solid rgba(198, 198, 198, 1);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 9.76rem;
+}
+
+.header__user-avatar {
+  width: 2.61rem;
+  height: 2.61rem;
+  border-radius: 50%;
+}

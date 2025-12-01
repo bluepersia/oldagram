@@ -3,47 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/shared/header.css" />
+    <link rel="stylesheet" href="css/shared/post-card.css" />
+    <link rel="stylesheet" href="css/pages/home/recent-posts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Oldagram</title>
   </head>
   <body>
     <header class="header">
-      <img class="header__logo" src="images/logo.png" alt="Oldagram" />
-      <img
-        class="header__user-avatar"
-        src="images/user-avatar.png"
-        alt="User"
-      />
+      <div class="header__inner u-container">
+        <img class="header__logo" src="images/logo.png" alt="Oldagram" />
+        <img
+          class="header__user-avatar"
+          src="images/user-avatar.png"
+          alt="User"
+        />
+      </div>
     </header>
     <main>
       <section class="recent-posts">
         <h2 class="recent-posts__title sr-only">Recent Posts</h2>
-        <ul class="recent-posts__list">
+        <ul class="recent-posts__list u-reset-list">
           <li class="recent-posts__item">
             <article class="post-card">
-              <header class="post-card__header">
+              <div class="u-container">
+                <header class="post-card__header">
+                  <img
+                    class="post-card__user-avatar"
+                    src="images/avatar-vangogh.jpg"
+                    alt=""
+                  />
+                  <div class="post-card__user-info">
+                    <h3 class="post-card__user-name">Vincent van Gogh</h3>
+                    <p class="post-card__user-location">
+                      Amsterdam, Netherlands
+                    </p>
+                  </div>
+                </header>
                 <img
-                  class="post-card__user-avatar"
-                  src="images/avatar-vangogh.jpg"
-                  alt=""
+                  class="post-card__image"
+                  src="images/post-vangogh.jpg"
+                  alt="A portrait of Vincent, with spiralling patterns"
                 />
-                <div class="post-card__user-info">
-                  <h3 class="post-card__user-name">Vincent van Gogh</h3>
-                  <p class="post-card__user-location">Amsterdam, Netherlands</p>
-                </div>
-              </header>
-              <img
-                class="post-card__image"
-                src="images/post-vangogh.jpg"
-                alt="A portrait of Vincent, with spiralling patterns"
-              />
-              <div class="post-card__actions">
+                <div class="post-card__footer">
+                  <div class="post-card__actions">
                     <button
                       class="post-card__action-button"
                       aria-label="Like"
                       data-like-btn
                     >
                       <img
-                        class="post-card__action-icon"
+                        class="post-card__action-icon post-card__like-btn"
                         src="images/icon-heart.png"
                         alt=""
                       />
@@ -59,8 +76,6 @@
                         alt=""
                       />
                     </button>
-                  </li>
-                  <li class="post-card__action-item">
                     <button
                       class="post-card__action-button"
                       aria-label="DM"
@@ -72,9 +87,14 @@
                         alt=""
                       />
                     </button>
+                  </div>
+                  <span class="post-card__likes-count">21,492 likes</span>
+                  <p class="post-card__user-text">
+                    <span class="post-card__user-nickname">vincey1853</span>
+                    just took a few mushrooms lol
+                  </p>
+                </div>
               </div>
-              <span class="post-card__likes-count">21,492 likes</span>
-              <p class="post-card__user-text"><span class="post-card__user-nickname">vincey1853</span> just took a few mushrooms lol</p>
             </article>
           </li>
         </ul>
