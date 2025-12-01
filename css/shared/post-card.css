@@ -1,0 +1,63 @@
+.post-card {
+  background-color: white;
+}
+
+.post-card__header {
+  padding: 0.84rem 0;
+  display: flex;
+  align-items: center;
+  column-gap: 0.53rem;
+}
+
+.post-card__user-avatar {
+  width: 2.61rem;
+  height: 2.61rem;
+  border-radius: 50%;
+}
+
+.post-card__user-location {
+  font-size: 0.92em;
+}
+
+.post-card__image {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.post-card__footer {
+  padding: 1.61rem 0 1.23rem;
+}
+
+.post-card__actions {
+  display: flex;
+  align-items: center;
+  column-gap: 0.53rem;
+  margin-bottom: 0.84rem;
+}
+
+.post-card__action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.post-card__action-button:hover,
+.post-card__action-button:focus,
+.post-card__action-button--active {
+  opacity: 0.5;
+}
+
+.post-card__action-icon {
+  width: 1.76rem;
+}
+
+.post-card__likes-count {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.92rem;
+}
+
+.post-card__user-nickname {
+  font-weight: bold;
+}
