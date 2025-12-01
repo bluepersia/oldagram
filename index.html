@@ -30,75 +30,9 @@
     <main>
       <section class="recent-posts">
         <h2 class="recent-posts__title sr-only">Recent Posts</h2>
-        <ul class="recent-posts__list u-reset-list">
-          <li class="recent-posts__item">
-            <article class="post-card">
-              <div class="u-container">
-                <header class="post-card__header">
-                  <img
-                    class="post-card__user-avatar"
-                    src="images/avatar-vangogh.jpg"
-                    alt=""
-                  />
-                  <div class="post-card__user-info">
-                    <h3 class="post-card__user-name">Vincent van Gogh</h3>
-                    <p class="post-card__user-location">
-                      Amsterdam, Netherlands
-                    </p>
-                  </div>
-                </header>
-                <img
-                  class="post-card__image"
-                  src="images/post-vangogh.jpg"
-                  alt="A portrait of Vincent, with spiralling patterns"
-                />
-                <div class="post-card__footer">
-                  <div class="post-card__actions">
-                    <button
-                      class="post-card__action-button"
-                      aria-label="Like"
-                      data-like-btn
-                    >
-                      <img
-                        class="post-card__action-icon post-card__like-btn"
-                        src="images/icon-heart.png"
-                        alt=""
-                      />
-                    </button>
-                    <button
-                      class="post-card__action-button"
-                      aria-label="Comment"
-                      data-comment-btn
-                    >
-                      <img
-                        class="post-card__action-icon"
-                        src="images/icon-comment.png"
-                        alt=""
-                      />
-                    </button>
-                    <button
-                      class="post-card__action-button"
-                      aria-label="DM"
-                      data-dm-btn
-                    >
-                      <img
-                        class="post-card__action-icon"
-                        src="images/icon-dm.png"
-                        alt=""
-                      />
-                    </button>
-                  </div>
-                  <span class="post-card__likes-count">21,492 likes</span>
-                  <p class="post-card__user-text">
-                    <span class="post-card__user-nickname">vincey1853</span>
-                    just took a few mushrooms lol
-                  </p>
-                </div>
-              </div>
-            </article>
-          </li>
-        </ul>
+        <ul class="recent-posts__list u-reset-list" data-post-list></ul>
       </section>
     </main>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>
