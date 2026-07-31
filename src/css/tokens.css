@@ -1,0 +1,19 @@
+:root {
+  /* Colors */
+  --color-neutral-900: #000;
+  --color-neutral-400: #c4c4c4;
+  --color-neutral-300: #d9d9d9;
+  --color-neutral-200: #ededed;
+  --color-neutrla-100: #fff;
+
+  /* Fonts */
+  --font-source: "Source Sans 3", sans-serif;
+
+  /* Font Sizes */
+  --font-size-100: 0.92rem;
+  --font-size-200: 1rem;
+
+  /* Font weights */
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+}
