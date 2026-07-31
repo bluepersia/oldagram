@@ -20,6 +20,8 @@
 
     <!-- Blocks -->
     <link rel="stylesheet" href="src/css/blocks/header/header.css" />
+    <link rel="stylesheet" href="src/css/blocks/feed/feed.css" />
+    <link rel="stylesheet" href="src/css/blocks/post-card/post-card.css" />
   </head>
 
   <body>
@@ -38,5 +40,15 @@
         />
       </div>
     </header>
+
+    <main>
+      <h1 class="sr-only">Main Feed</h1>
+
+      <ul class="feed" id="feed">
+        <li class="feed__item"></li>
+      </ul>
+    </main>
+
+    <script src="dist/scripts/index.js" type="module"></script>
   </body>
 </html>

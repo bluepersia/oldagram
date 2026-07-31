@@ -1,0 +1,73 @@
+.post-card {
+  background-color: var(--color-neutral-100);
+}
+
+.post-card__header {
+  display: flex;
+  align-items: center;
+  padding: 0.92rem 0;
+}
+
+.post-card__avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+.post-card .post-card__avatar {
+  margin-right: 1.3rem;
+}
+
+.post-card__name {
+  font-size: var(--font-size-200);
+}
+
+.post-card__location {
+  font-size: var(--font-size-100);
+}
+
+.post-card__img {
+  cursor: pointer;
+}
+
+.post-card__content {
+  padding: 1.6rem 0 1.23rem;
+}
+
+.post-card__actions {
+  display: flex;
+  column-gap: 1.53rem;
+}
+
+.post-card .post-card__actions {
+  margin-bottom: 0.92rem;
+}
+
+.post-card__action-btn {
+  transition: transform 300ms;
+}
+
+.post-card__action-btn:hover,
+.post-card__action-btn:focus {
+  transform: scale(1.2);
+}
+
+.post-card__action-img {
+  width: 23px;
+  height: 23px;
+}
+
+.post-card__likes-count {
+  font-weight: var(--font-weight-700);
+}
+
+.post-card .post-card__likes-count {
+  margin-bottom: 0.92rem;
+}
+
+.post-card__username {
+  font-weight: var(--font-weight-700);
+}
+
+.post-card .post-card__username {
+  margin-right: 0.5rem;
+}
